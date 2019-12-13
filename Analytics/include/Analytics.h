@@ -5,3 +5,4 @@
 #import "../Classes/Internal/SEGSegmentIntegrationFactory.h"
 #import "../Classes/Middlewares/SEGContext.h"
 #import "../Classes/Middlewares/SEGMiddleware.h"
+#import "../Classes/Integrations/SEGIntegrations.h"
