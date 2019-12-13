@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-#import "../Integrations/SEGIntegration.h"
+#import "SEGIntegration.h"
 #import "SEGHTTPClient.h"
 #import "SEGStorage.h"
 
