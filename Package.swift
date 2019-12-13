@@ -15,7 +15,7 @@ let package = Package(
         .target(
             name: "Analytics",
             path: "Analytics",
-            publicHeadersPath: "Classes/Integrations",
+            publicHeadersPath: "include",
             cSettings: [
             .headerSearchPath("Classes"),
             .headerSearchPath("Classes/Crypto"),
