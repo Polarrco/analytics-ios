@@ -6,3 +6,4 @@
 #import "../Classes/Middlewares/SEGContext.h"
 #import "../Classes/Middlewares/SEGMiddleware.h"
 #import "./SEGIntegration.h"
+#import "./SEGAmplitudeIntegrationFactory.h"
