@@ -10,10 +10,15 @@ let package = Package(
             name: "Analytics",
             targets: ["Analytics"]),
     ],
-    dependencies: [],
+    dependencies: [
+        .package(
+            url: "https://github.com/amplitude/Amplitude-iOS",
+            Version(4, 9, 3)..<Version(5, 0, 0)),
+    ],
     targets: [
         .target(
             name: "Analytics",
+            dependencies: ["Amplitude"],
             path: "Analytics",
             publicHeadersPath: "include",
             cSettings: [
