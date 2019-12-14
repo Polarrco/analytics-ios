@@ -1,10 +1,10 @@
 #import <Foundation/Foundation.h>
-#import "SEGIdentifyPayload.h"
-#import "SEGTrackPayload.h"
-#import "SEGScreenPayload.h"
-#import "SEGAliasPayload.h"
-#import "SEGIdentifyPayload.h"
-#import "SEGGroupPayload.h"
+#import "../Classes/Integrations/SEGIdentifyPayload.h"
+#import "../Classes/Integrations/SEGTrackPayload.h"
+#import "../Classes/Integrations/SEGScreenPayload.h"
+#import "../Classes/Integrations/SEGAliasPayload.h"
+#import "../Classes/Integrations/SEGIdentifyPayload.h"
+#import "../Classes/Integrations/SEGGroupPayload.h"
 #import "../Middlewares/SEGContext.h"
 
 NS_ASSUME_NONNULL_BEGIN
