@@ -5,7 +5,7 @@
 #import "../Classes/Integrations/SEGAliasPayload.h"
 #import "../Classes/Integrations/SEGIdentifyPayload.h"
 #import "../Classes/Integrations/SEGGroupPayload.h"
-#import "../Middlewares/SEGContext.h"
+#import "../Classes/Middlewares/SEGContext.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
